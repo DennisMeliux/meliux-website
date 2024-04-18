@@ -1,15 +1,11 @@
 import CreditCard from "../../icons/CreditCard";
+import Iphone from "../../assets/iPhone 15 Pro Black Titanium Mockup Portrait label.png";
 
 const Support = () => {
   return (
     <div className="pb-[100px] flex gap-[35px] px-5 flex-col-reverse xl:flex-row">
       <div className="xl:max-w-[649px] w-full h-[706px] relative rounded-[32px] border-2 border-white border-opacity-10 overflow-hidden flex justify-center pt-[100px]">
-        <img
-          src="/iPhone 15 Pro Black Titanium Mockup Portrait label.png"
-          alt=""
-          width={434.86}
-          height={"100%"}
-        />
+        <img src={Iphone} alt="" width={434.86} height={"100%"} />
         <div className="absolute bottom-0 right-0">
           <CreditCard />
         </div>

@@ -1,3 +1,5 @@
+import Mockup from "../../assets/14 Mockup 1.png";
+
 const Hero = () => {
   return (
     <div className="bg-zinc-800 border border-1 border-zinc-700 rounded-lg py-10 px-8 flex flex-col xl:flex-row xl:items-center justify-between mt-[22px] w-full bg-[url('../public/background.svg')]">
@@ -42,7 +44,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <img src="/14 Mockup 1.png" alt="" width={600} height={"100%"} />
+      <img src={Mockup} alt="" width={600} height={"100%"} />
     </div>
   );
 };
