@@ -1,6 +1,6 @@
 const CallToAction = () => {
   return (
-    <div className="bg-[url('../public/background-green.svg')] py-[100px]">
+    <div className="bg-[url('../public/background-green.svg')] py-[100px] px-5">
       <h2 className="max-w-[1274px] w-full text-center">
         <span className="text-white text-4xl md:text-7xl font-semibold font-['Syne'] md:leading-[80px]">
           At Meliux we're not merely{" "}
